@@ -1,4 +1,4 @@
 
 
-![Preview](./assets/images/Preview.png)
+![Preview](./assets/images/preview.png)
 
