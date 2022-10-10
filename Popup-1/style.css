@@ -1,0 +1,51 @@
+:root{
+    --background: rgb(227, 227, 227);
+    --box-shadow : 5px 5px 10px 0 rgb(166, 166, 166);
+    --font-family : Verdana, Geneva, Tahoma, sans-serif;
+    --transition : all ease-in-out 250ms;
+    --content-padding : 50px 30px 70px 40px;
+    --main-br : 45px;
+}
+
+
+body{
+    font-family: var(--font-family);
+    margin: 0;
+    background-color:var(--background) ;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.sub-container{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    max-height: 250px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+.sub-container>img{
+    margin-top: -45px;
+    margin-left: 25px;
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    
+}
+.text-container{
+    margin-top: -25px;
+    text-align: center;
+}
+.text-container > h2{
+    font-size: 20px;
+}
+.text-container > p{
+    font-size: 13px;
+   margin-top: -10px;
+}
