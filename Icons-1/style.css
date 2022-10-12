@@ -1,0 +1,37 @@
+
+:root{
+    --background: rgb(227, 227, 227);
+    --box-shadow : 5px 5px 10px 0 rgb(166, 166, 166);
+    --font-family : Verdana, Geneva, Tahoma, sans-serif;
+    --transition : all ease-in-out 250ms;
+    --content-padding : 50px 30px 70px 40px;
+    --main-br : 45px;
+}
+body{
+    margin: 0;
+    font-family: var(--font-family);
+}
+.main-container{
+    background-color: var(--background);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container{
+    background-color: white;
+    padding: 10px 30px 30px 30px;
+    box-shadow: var(--box-shadow);
+    border-radius: 25px;
+
+}
+.sub-container > h1{
+    font-size: 22px;
+}
+.icons > i{
+    font-size: 35px;
+    color: rgb(70, 70, 249);
+    margin-right: 8px;
+    
+}
