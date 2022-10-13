@@ -1,0 +1,45 @@
+
+
+:root{
+    --background: rgb(227, 227, 227);
+    --box-shadow : 5px 5px 10px 0 rgb(166, 166, 166);
+    --font-family : Verdana, Geneva, Tahoma, sans-serif;
+    --transition : all ease-in-out 250ms;
+    --content-padding : 50px 30px 70px 40px;
+    --main-br : 45px;
+}
+
+body{
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--background);
+}
+.sub-container{
+    padding: 25px 0px 20px 40px;
+    background-color: white;
+    width: 250px;
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+}
+.sub-container > .list> h1{
+    font-size: 19px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.sub-container > .list > p{
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    color: rgb(83, 83, 83);
+}
+
+
+
