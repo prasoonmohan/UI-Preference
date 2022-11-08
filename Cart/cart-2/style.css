@@ -1,0 +1,76 @@
+
+:root{
+    --background: rgb(227, 227, 227);
+    --box-shadow : 5px 5px 10px 0 rgb(166, 166, 166);
+    --font-family : Verdana, Geneva, Tahoma, sans-serif;
+    --transition : all ease-in-out 250ms;
+    --content-padding : 50px 30px 70px 40px;
+    --main-br : 45px;
+    --button-color:rgba(0, 0, 255, 0.689);
+}
+body{
+    margin: 0;
+    background-color: var(--background);
+    font-family: var(--font-family);
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+    padding: 20px 25px 20px 20px;
+}
+.fav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 250px;
+}
+.fav>img{
+    height: 24px;
+    width: 23px;
+    
+}
+.fav>p{
+    color: red;
+    margin-top: 3px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+}
+.item-img>img{
+    height: 180px;
+    width: 120px;
+    
+}
+.item-name{
+    margin-top: -30px;
+    
+}
+.item-dec{
+    margin-top: -30px;
+    color: rgb(71, 71, 71);
+}
+.container>button{
+    background-color: var(--button-color);
+    border: none;
+    padding: 10px;
+    width: 160px;
+    border-radius: 6px;
+    color: white;
+    transition: var(--transition);
+}
+.container>button:hover{
+    background-color:rgb(0, 0, 255) ;
+}
